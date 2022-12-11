@@ -37,7 +37,7 @@
     overflow: hidden;
     position: sticky;
     z-index: 100;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* border-radius: 20px; */
     /* margin-bottom: 2px; */
     
@@ -114,7 +114,7 @@
     margin-left: 4px;
     margin-right: 4px;
     border: 3px solid black;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
 .tbig {
@@ -125,6 +125,7 @@
 .tsmall {
     font-size: 1.3em;
     font-family: 'Baloo Bhai 2', cursive;
+    text-align: justify;
 }
 
 .btn{
@@ -177,7 +178,7 @@
 
 
 .anim1 {
-    animation: anim1 2s ease-in backwards;
+    animation: anim1 1s ease-in backwards;
 }
 
 .anim2 {
@@ -245,7 +246,7 @@
         flex-direction: column;
         transition: all 0.7s ease-out;
         height: 30vh;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         justify-content: center;
     }
     .navlist{
@@ -289,6 +290,9 @@
     .logo img {
         height: 4vh;
         width: 8vw;
+    }
+    .anim1{
+       animation: none; 
     }
 }
 
