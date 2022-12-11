@@ -100,12 +100,17 @@
     align-items: center;
     /* color: white; */
     width: 80%;
+    /* margin-top: 10px; */
     margin: auto;
     height: 80%;
     overflow: hidden;
 }
 
-
+.fhalf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .shalf img {
     width: 15vw;
@@ -310,6 +315,10 @@
     .anim1{
        animation: none; 
     }
+
+    .textcenter{
+        text-align: justify;
+    }
 }
 
 
@@ -321,4 +330,9 @@
 
 .bree{
     font-family: 'Bree Serif', serif;
+}
+
+
+.textcenter{
+    text-align: justify;
 }
